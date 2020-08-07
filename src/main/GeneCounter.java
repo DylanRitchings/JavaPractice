@@ -6,7 +6,7 @@ import java.util.HashMap;
 public class GeneCounter {
     /***
      * Counts number of nitrogenous bases in string that represents a gene
-     * @param dna
+     * @param dna Gene containing nitrogenous bases as 'A', 'T', 'G' and 'C'
      * @return Number of nitrogenous bases in HashMap
      */
     public HashMap<String, Integer> geneCount(String dna) {
